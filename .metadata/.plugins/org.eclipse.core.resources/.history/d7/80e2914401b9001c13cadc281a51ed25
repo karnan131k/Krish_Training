@@ -1,0 +1,9 @@
+package com.karnan.rentcar.controller;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class StageEndpoint {
+
+}
