@@ -1,0 +1,11 @@
+package com.karnan.rentcar.controller;
+
+import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
+import org.springframework.context.expression.MapAccessor;
+import org.springframework.stereotype.Component;
+
+@Component
+@Endpoint(id = "stage")
+public class StageEndpoint {
+	Map<String, Stage> stage = new Concurr
+}
