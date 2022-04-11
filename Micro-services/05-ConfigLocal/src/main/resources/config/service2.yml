@@ -1,0 +1,4 @@
+#hit this url in postman and see the profiles as response http://localhost:8191/service2/default
+service:
+  greeting: Hello form service 2
+  name: karnan

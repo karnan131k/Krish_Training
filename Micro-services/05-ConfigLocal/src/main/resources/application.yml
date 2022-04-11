@@ -1,0 +1,7 @@
+server:
+  port: 8191
+#File System Backend
+# There is also a "native" in the config server that does not use GIT
+#but loads the config files from the local class path or file system.
+#to use the native profile, launch the config server with spring.profile.active=native
+spring:  profiles:    active:    - native
