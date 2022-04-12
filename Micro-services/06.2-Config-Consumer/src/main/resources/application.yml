@@ -1,5 +1,2 @@
-spring:
-  config:
-    import: 'optional:configserver: http://localhost:8191'
-  application:
-    name: membership
+server:  port: 8085
+
