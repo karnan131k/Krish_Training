@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8191
+
+  application:
+    name: profileservice
+
+  profiles:
+    active:
+    - dev
+
+# check config server url in rest client the values comming or not
+# http://localhost:8191/profileservice/dev
+# if you get the configurations as response, using that response configurations profile service app will load the db connection
