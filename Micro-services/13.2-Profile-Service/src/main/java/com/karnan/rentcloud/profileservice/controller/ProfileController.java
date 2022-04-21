@@ -17,7 +17,6 @@ import com.karnan.rentcloud.profileservice.service.CustomerService;
 @RestController
 @RequestMapping(value = "/services")
 public class ProfileController {
-
 	@Autowired
     CustomerService customerService;
 
